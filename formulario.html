@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Pesquisa de Satisfação</h1>
+        <h2>Dados pessoais</h2>
+        <form action="formulario.html" method="post">
+            <p>
+                <label for="Nome">Nome:</label>
+                <input type="text" placeholder="Nome" id="Nome"/>
+            </p>
+            <p>
+                <label for="Email">E-mail:</label>
+                <input type="text" placeholder="E-mail" id="Email"/>
+            </p>
+            <p>
+                <label for="Telefone">Telefone:</label>
+                <input type="text" placeholder="Telefone" id="Telefone"/>
+            </p>
+        <h2>Pesquisa</h2>
+        <p>Como você avalia a didática do professor deste módulo?</p>
+             <input type="radio" name="didatica" value="opcao1" id="opcao1">
+             <label for="opcao1">Péssimo</label>
+             <input type="radio" name="didatica" value="opcao2" id="opcao2">
+             <label for="opcao2">Ruim</label>
+             <input type="radio" name="didatica" value="opcao3" id="opcao3">
+             <label for="opcao3">Normal</label>
+             <input type="radio" name="didatica" value="opcao4" id="opcao4">
+             <label for="opcao4">Bom</label>
+             <input type="radio" name="didatica" value="opcao5" id="opcao5">
+             <label for="opcao5">Excelente</label>
+        <p>Qual a sua avaliação do conteúdo do curso até o momento?</p>
+            <input type="radio" name="conteudo" value="pessimo" id="conteudoPessimo">
+            <label for="pessimo">Péssimo</label>
+            <input type="radio" name="conteudo" value="ruim" id="conteudoRuim">
+            <label for="ruim">Ruim</label>
+            <input type="radio" name="conteudo" value="mediano" id="conteudoMediano">
+            <label for="mediano">Mediano</label>
+            <input type="radio" name="conteudo" value="bom" id="conteudoBom">
+            <label for="bom">Bom</label>
+            <input type="radio" name="conteudo" value="otimo" id="conteudoOtimo">
+            <label for="otimo">Ótimo</label>
+            <h2>Você indicaria o curso para um amigo?</h2>
+            <select>
+                <option value="naoIndicaria">Não</option>
+                <option value="indicaria">Sim</option>
+            </select>
+            <p>
+                <input type="checkbox" id="compartilharDados"/>
+                <label for="compartilharDados">Autorizo o compartilhamento dos dados com terceiros.</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar"/>
+            </p>
+        </form>
+    </body>
+</html>
