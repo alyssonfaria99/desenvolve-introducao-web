@@ -18,11 +18,11 @@ p + h1 {
     font-family: Arial;
 }
 
-.destaque p {
+p.destaque {
     font-weight: bold;
 }
 
-.destaque strong{
+strong.destaque {
     color: red;
 }
 
