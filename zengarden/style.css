@@ -2,9 +2,14 @@ html {
     background-color:#f1f2f6; 
     color: black;
     font-size: 20px;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto
+}
 
 .destaque {
     color:#DBA6F5
@@ -41,4 +46,46 @@ h3 {
 
 abbr{
     font-variant: small-caps;
+}
+
+#zen-intro{
+    height:550px
+}
+
+#design-archives {
+    display:none
+}
+
+#zen-intro header {
+    background-color: black;
+    color:#f1f2f6
+}
+
+#zen-intro header h1, h2 {
+    display: inline-block
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li{
+    margin: 1em;
+    text-align:center
+}
+
+.main footer {
+    margin: 4%;
+
+}
+
+.main footer a {
+    border: solid 2px;
+    padding: 0.5em;
+    display: inline-block
 }
