@@ -107,10 +107,11 @@ aside ul li{
 
 #design-selection {
     position: absolute;
-    top: 550px;
+    top: 540px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
+    font-size: 18px;
 }
 
 .benefits {
@@ -144,4 +145,33 @@ aside ul li{
 .benefits {
     border-bottom: solid #000 1px;
     border-top: solid #000 1px;
+}
+
+a{
+    color: #32c3d9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #06363e
+}
+
+a:visited {
+    font-weight: normal;
+}
+
+.main p:first-of-type::first-letter{
+    font-size:3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left
+}
+
+.design-selection li {
+    border-top: solid #000 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #000 solid 1px;
+    padding-bottom: 5px;
 }
