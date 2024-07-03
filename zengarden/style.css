@@ -12,9 +12,10 @@ html {
     position: relative
 }
 
-.destaque {
-    color:#DBA6F5
+/*destaque {
+    color:#32c3d9
 }
+*/
 
 p {
     text-indent: 1em;
@@ -101,8 +102,7 @@ aside ul li{
     width: 60%;
     margin-right: 35%;
     border-right: solid 1px #1f295c;
-    padding-right: 2%
-
+    padding-right: 2%;
 }
 
 #design-selection {
@@ -174,4 +174,42 @@ a:visited {
 .design-selection li:last-of-type {
     border-bottom: #000 solid 1px;
     padding-bottom: 5px;
+}
+
+
+@media screen and (max-width:768px){
+    #design-selection {
+        position: static;
+        width: 100%;
+
+
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro {
+        height:auto
+    }
+    .participation {
+        flex-direction: column;
+    }
+    p {
+        text-indent: 0px;
+    }
+    #zen-intro header {
+        height:auto
+    }
+
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #zen-intro header {
+        background-color: #f1f2f6;
+        color:#f1f2f6
+    }
 }
